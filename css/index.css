@@ -192,6 +192,9 @@ header .phb-list .box span:nth-child(4) {
 header .phb-list .min {
   margin-bottom: 0.25rem;
 }
+header .phb-list .min .img-min img {
+  margin-left: 0.48rem;
+}
 header .phb-list .paim {
   background-color: #fff9ec;
   height: .55rem;
@@ -266,6 +269,9 @@ header .phb-list #profile .box span:nth-child(4) {
 header .phb-list #profile .min {
   margin-bottom: 0.25rem;
 }
+header .phb-list #profile .min .img-min img {
+  margin-left: 0.48rem;
+}
 header .phb-list #profile .paim {
   background-color: #fff9ec;
   height: .55rem;
@@ -331,4 +337,10 @@ header .footer p {
   margin-left: 1.82rem;
   font-size: .28rem;
   color: #fff;
+}
+header .min {
+  margin-bottom: 0.25rem;
+}
+header .min .img-min img {
+  margin-left: 0.48rem !important;
 }
