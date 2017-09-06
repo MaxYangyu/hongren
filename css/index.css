@@ -131,7 +131,7 @@ header .phb-list .nav-tabs li:nth-child(2) a {
 header .phb-list .nav-tabs li a {
   margin-right: 0;
 }
-header .phb-list .nav-tabs li.active a:hover {
+header .phb-list .nav-tabs li.active a:link {
   margin: 0;
   color: #fff;
   background-color: #ff3971;
@@ -173,6 +173,7 @@ header .phb-list .box span:nth-child(2) img:nth-child(2) {
   width: .3rem;
   height: 0.25rem;
   top: -0.95rem;
+  z-index: 99;
 }
 header .phb-list .box span:nth-child(3) {
   position: absolute;
@@ -246,6 +247,7 @@ header .phb-list #profile .box span:nth-child(2) img:nth-child(2) {
   width: .3rem;
   height: 0.25rem;
   top: -0.95rem;
+  z-index: 99;
 }
 header .phb-list #profile .box span:nth-child(3) {
   position: absolute;
